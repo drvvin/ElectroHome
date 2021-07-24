@@ -1,0 +1,108 @@
+/* formulario cambiar contraseña*/
+
+.formulario{
+	background: #858543;
+	margin-top: 20px;
+	width: 40%;
+	height: 40%;
+	border-radius: 18px;
+}
+/* Ancho de tabla*/
+.tablaform{
+	width: 70%;
+}
+h1{
+	margin-top: 120px;
+	margin-left: 560px;
+	text-align: left;
+	color: white;
+	font-size: 48px;
+
+}
+
+h3{
+	text-align: center;
+	color: white;
+	margin-left: 560px;
+	text-align: left;
+	font-size: 28px;
+}
+
+input{
+	font-size: 20px;
+	width: 120%;
+	padding: 10px;
+	border: none;
+	border-radius: 18px;
+}
+
+
+.icon{
+	min-width: 30px;
+	text-align: center;
+	color: black;
+}
+
+/* Configuracion boton*/
+.button{
+	margin-left: 80px;
+	margin-bottom: 20px;
+	border: none;
+	width: 35%;
+	color: white;
+	font-size: 15px;
+	background: black;
+	padding: 15px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.button2{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: none;
+	width: 35%;
+	color: black;
+	font-size: 15px;
+	background: white;
+	padding: 15px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.button:hover{
+	background: white;
+	color: black;
+
+}
+
+.button2:hover{
+	background: black;
+	color: white;
+
+}
+
+
+.link{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+
+}
+
+.link:hover{
+	color: white;
+}
+/* Configuracion de textfield*/
+.txcorreo{
+	color: white;
+	text-align: left;
+}
+
+.tittle{
+	background-color: #858543;
+}
+.CS{
+	margin-top: 222%;
+	background: black;
+}

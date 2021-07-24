@@ -1,0 +1,216 @@
+	/*Configuraciones general de la pagina*/
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+	/*Configuraciones de todo lo que se encuentre dentro body*/
+	body{
+		background-size: 100vw 100vh;
+		background: url(ImagenCont/empresa.jpg) no-repeat;
+		background-size: 100% 60%; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	/*------------------------------------------------------------------------------------Contenido-------------------------------------------------------------*/
+	.contenido {
+		position: -webkit-sticky;
+		margin-top: 5.2%;
+		height: 100%;
+		width: 100%;
+	}
+
+	/*------------------------------------------------------------------------------------Encabezado-------------------------------------------------------------*/
+	
+	.header{
+		position: -webkit-sticky;
+		width: 100%;
+		background: #858543;
+		height: 10%;
+		position: fixed;
+		top: 0;left: 0;
+		z-index: 1;
+	}
+
+	.container{
+		width: 90%;
+		max-width: 100%;
+		margin: auto;
+		background: #858543;
+	}
+
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	/*Configuracion texto logotipo*/
+	.logo {
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin: 1%;
+	}
+
+	/*Configuraciones parametros del encabezado*/
+	.container .menu{
+		float: right;
+
+	}
+
+	/*Configuraciones botones*/
+	.container .menu a{
+		margin: 1%;
+		height: 40px;
+		
+	}
+	.menu{
+		max-height: 10%;
+		width: 30%;
+	}
+
+	/*Efectos en la configuracion de los botones al pasar el mouse*/
+	
+
+	/*Configuraciones boton contactanos*/
+	.QuienesSomos_btn{
+		background-color: #0C120C;
+		color:white;
+		font-size: 20px;
+		border-radius: 8px;
+		width: 200px;
+		height: 40px;
+	}
+
+	/*Configuraciones boton contactanos*/
+	.Contactanos_btn{
+		background-color: #0C120C;
+		color:white;
+		font-size: 20px;
+		border-radius: 8px;
+		width: 200px;
+		height: 40px;
+	}
+
+	/*Efecto al colocar el mouse en el boton*/
+	.QuienesSomos_btn:hover{
+		background: #5A5A66;
+	}
+
+	/*Efecto al colocar el mouse en el boton*/
+	.Contactanos_btn:hover{
+		background: #5A5A66;
+	}
+
+	/*Configuracion imagen de twiter*/
+	.imgtwitter{
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+	}
+
+	/*Configuracion imagen de instagram*/
+	.imginsta{
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+	}
+
+	/*Configuracion imagen de facebook*/
+	.imgface{
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+	} 
+	.tabla_encabezado{
+		margin-top: 3%;
+		position: relative;
+	}
+	.columnaTabla{
+		margin: 100px;
+	}
+
+	
+	/*------------------------------------------------------------------------------------Menu lateral-------------------------------------------------------------*/
+	
+
+	/*Configuracion boton del menu*/
+	#btn-menu{
+		display: none;
+	}
+
+	/*Configuracion barra lateral*/
+	.container-menu{
+		position: absolute ;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vw;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 1;
+	}
+
+	/*Efecto de colores barra lateral*/
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+
+	}
+
+	/*Configuracion menu*/
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #858543;
+		height: 100%;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+		position: fixed;
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+		background: #858543;
+
+	}
+	.cont-menu nav a{
+
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		transition: all 400ms ease;
+
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	
+
+	
+	

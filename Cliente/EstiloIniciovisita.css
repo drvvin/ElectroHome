@@ -1,0 +1,133 @@
+
+	/*Titulo Contenido*/
+	h1{
+		font-size: 40px;
+		color: white;
+	}
+
+	/*Primera Parte del Contenido*/
+	.part1{
+		padding: 3.5%;
+		width: 30%;
+		height: 40%;
+		color: black;
+		font-size: 30px;
+		border-radius: 8px;
+		text-align: left;
+		float: left;
+		background-image: url(ImagenCont/fondo.jpg); 
+		background-size: 100%;
+		font-weight: bold;
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+
+	/*Configuracion division imagen*/
+	.Top{
+		background-image: no-repeat;	
+	}
+
+	/*Configuracion imagen ampolleta*/
+	.Img-Top{
+		margin-top: -2%;
+		width: 100%;
+		max-height: 16%;
+		border-radius: 5%;
+	}
+
+	.part2{
+		padding: 3.5%;
+		width: 50%;
+		height: 40%;
+		margin-top: 4%;
+		color: black;
+		font-size: 18px;
+		border-radius: 8px;
+		text-align: left;
+		float: right;
+		background-image: url(ImagenInicio/empresa.jpg); 
+		background-size: 100%;
+		margin-right: 10%;
+		font-weight: bold;
+	}
+
+	.part3{
+		padding: 3.5%;
+		width: 50%;
+		height: 40%;
+		margin-top: 2%;
+		color: black;
+		font-size: 18px;
+		border-radius: 8px;
+		text-align: left;
+		float: right;
+		background-image: url(ImagenInicio/cliente.jpeg);
+		background-size: 100%;
+		margin-right: 10%;
+       font-weight: bold;
+	}
+
+	.part4{
+		padding: 3.5%;
+		width: 30%;
+		height: 40%;
+		margin-top: -30%;
+		margin-left: 5%;
+		color: black;
+		font-size: 18px;
+		border-radius: 8px;
+		text-align: left;
+		float: left;
+		background-image: url(ImagenInicio/empresa.jpg);
+		margin-right: 10%;
+		font-weight: bold;
+	}
+
+	.p1{
+		background-color: #fff; 
+		opacity: 0.8;
+		border-radius: 5px;
+		padding: 50px;
+	}
+
+	ul{
+		margin-top: 1%;
+		background-color: #fff; 
+		opacity: 0.8;
+		border-radius: 5px;
+		padding: 50px;
+	}
+
+	.titulo2{
+		color: black;
+	}	
+
+	.STS{
+		background-color: #fff; 
+		opacity: 0.8;
+		border-radius: 5px;
+		padding: 10px;
+	}
+
+	.botonSolicitar{
+		background-color: #0C120C;
+		color:white;
+		font-size: 20px;
+		border-radius: 8px;
+		width: 100%;
+		height: 40px;
+	}
+
+	.botonSolicitar:hover{
+		background-color: white;
+		color:black;
+	}	
+
+	.tittle{
+	background-color: #858543;
+}
+
+.CS{
+	margin-top: 222%;
+	background: black;
+}

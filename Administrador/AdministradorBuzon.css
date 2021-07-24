@@ -1,0 +1,202 @@
+/*------------------------------------------------------------------------------------ContenidoDentroClienteVersolicitudes-------------------------------------------------------------*/
+/*Titulo Contenido*/
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	background: black;
+	border-radius: 18px;
+	margin-bottom: 5%;
+} 
+/*Configuracion del titulo*/
+.tittle{
+
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 5%;
+}
+/*Titutlo Mi cuenta*/
+.TituloVerSolicitudes{
+	text-align: center;
+	color: white;
+	text-align: left;
+	font-size: 38px;
+} 
+/*Configuracion cotnenido de la tabla*/
+#main-container{
+	width: 40%;
+}
+/*Configuracion de la tabla*/
+.tablaVerSolicitudes{
+	margin-top: 5%;
+	width: 150%;
+	height: 100%;
+	background-color: white;
+	text-align: left;
+	border: 1px solid;
+	margin-left: -20%;
+}
+/*Configuracion th de la tabla*/
+.thSolicitudes{
+	padding: 30px;
+}
+/*Configuracion td de la tabla*/
+.tdSolicitudes{
+	padding: 30px;
+}
+/*Configuracion cabezera de la tabla*/
+.ThTablaVerSolicitudes {
+	background-color: black;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+/*Configuracion efectos en la tabla*/
+.trSolicitudes:nth-child(even){
+	background-color: #ddd;
+}
+/*Configuracion efectos en la tabla*/
+.trSolicitudes:hover .tdSolicitudes{
+	background-color: #F5F5F5;
+	color: black;
+}
+/*Configuracion div buscar*/
+.dvSearch{
+}
+/*Configuracion barra lateral*/
+i{
+	margin-right: 1%; 
+}
+/*Configuracion buscar*/
+.search{
+	margin-top: 7%;
+	height: 50px;
+	width: 60%;
+	border-radius: 18px;
+}
+/*Configuracion datos*/
+.date{
+	margin-top: 2%;
+	height: 40px;
+	width: 6%;
+	border-radius: 18px;
+	text-align: center;
+}
+/*Configuracion de select*/
+select{
+	border-radius: 4px;
+	background: white;
+	width: 100%;
+	display: flex;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.SelectCss{
+	border-radius: 4px;
+	background: white;
+	width: 10%;
+	display: flex;
+	font-size: 18px;
+	cursor: pointer;
+}
+/*Configuracion del parrafo*/
+p{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*Configuracion boton*/
+.bt{
+	width: 10%;
+	padding: 10px;
+	background: black;
+	color: white;
+	font-size: 12px;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+	cursor: pointer;
+}
+/*Configuracion efecto al pasar por el boton*/
+.bt:hover{
+	background: white;
+	color:red;
+}
+/*Configuracion boton*/
+.but{
+	height: px;
+	width: 80%;
+	outline: none;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	margin-left: 10%;
+}
+/*Configuracion calendario*/
+.calendar{
+	margin-top: 2%;
+	height: 45px;
+	width: 40%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;	
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+
+}
+/*Configuracion botton*/
+.button{
+	height: 46px;
+	width: 100%;
+	outline: none;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+/*Configuracion titulo del contenido*/
+.CS{
+	margin-top: 222%;
+	background: black;
+}
+
+.tol{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	background: black;
+	color: white;
+}
+
+.bon{
+	height: 45px;
+	width: 10%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	background: black;
+	color: white;
+}
+
+.detalle{
+	color: white;
+	font-size: 18px;
+	background: black;
+	border-radius: 8px;
+	margin-bottom: 1%;
+
+}
+
+.dv{
+	margin-top: -5%;
+}

@@ -1,0 +1,47 @@
+/*Titulo Contenido*/
+h1{
+	font-size: 50px;
+	background-color: black;
+	color: white;
+}
+/*Subtitulo Contenido*/
+h3{
+	color: white;
+	font-size: 28px;
+}
+/*Configuracion del parrafo*/
+p{
+	color: white;
+	font-size: 18px;
+}
+/*Primera Parte del Contenido*/
+.part1{
+	background-color: #858543;
+	padding: 3.5%;
+	width: 30%;
+	height: 40%;
+	margin-top: 4%;
+	float: right;
+	color: black;
+	font-size: 18px;
+	border-radius: 8px;
+	text-align: left;
+}
+/*Configuracion division imagen*/
+.Top{
+	background-image: no-repeat;	
+}
+/*Configuracion imagen ampolleta*/
+.Img-Top{
+	margin-top: 3%;
+	width: 40%;
+	max-height: 16%;
+	border-radius: 10%;
+	float: right;
+	margin-right: 12%;
+	margin-left: 2%;
+}
+.CS{
+    margin-top: 222%;
+    background: black;
+}

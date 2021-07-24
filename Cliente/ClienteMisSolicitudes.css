@@ -1,0 +1,67 @@
+/*------------------------------------------------------------------------------------ContenidoDentroClienteVersolicitudes-------------------------------------------------------------*/
+
+	.contenidoVerSolicitudes{
+		padding-top: 5%;
+		margin-bottom: 100%;
+		padding-bottom: 100%;
+		background: #E6E38A;
+		background-size: 100% 100%; 
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+	} 
+
+	h1{
+		width: 25%;
+		color: white;
+		text-align: center;
+		font-size: 48px;
+		background: black;
+		border-radius: 18px;
+		margin-bottom: 1%;
+	}
+
+	h3{
+		text-align: center;
+		color: black;
+		font-size: 15px;
+		margin-bottom: 2%;
+	}
+
+	#main-container{
+		width: 40%;
+	}
+
+	.tablaVerSolicitudes{
+		width: 120%;
+		height: 180px;
+		background-color: white;
+		text-align: left;
+		margin-left: -10%;
+	}
+
+	.thSolicitudes{
+		padding: 30px;
+	}
+	.tdSolicitudes{
+		padding: 30px;
+	}
+
+	.ThTablaVerSolicitudes {
+		background-color: black;
+		border-bottom: solid 5px #0F362D;
+		color: white;
+	}
+
+	.trSolicitudes:nth-child(even){
+		background-color: #ddd;
+	}
+
+	.trSolicitudes:hover .tdSolicitudes{
+		background-color: #F5F5F5;
+		color: black;
+	}
+
+.CS{
+	margin-top: 222%;
+	background: black;
+}

@@ -1,0 +1,12 @@
+/*------------------------------------------------------------------------------------ContenidoDentroAdministradorMenu-------------------------------------------------------------*/
+/*Configuracion contenido del menu*/
+.contenidoMenu{
+	margin-top: 5%;
+	margin-bottom: 100%;
+	padding-bottom: 100%;
+} 
+/*Configuracion titulo*/
+.CS{
+	margin-top: 222%;
+	background: black;
+}

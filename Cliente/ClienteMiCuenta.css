@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------------------------ContenidoDentroClienteMiCuenta-------------------------------------------------------------*/
+	
+	/*Contenido para realizar modificaciones en la pantalla central*/
+	.contenidoMiCuenta{
+		margin-top: 5%;
+		padding-top: 5%;
+		margin-bottom: 100%;
+		padding-bottom: 100%;
+		background: #E6E38A;
+		background-size: 100% 100%; 
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+	} 
+
+	/*Contenido del formulario*/
+	.envase{
+		max-width: 700px;
+		width: 100%;
+		background-color: #fff;
+		padding: 25px 30px;
+		border-radius: 5px;
+		box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+		text-align: left;
+	}
+
+	/*Modificacion del formulario*/
+	.envase ::before{
+		left: 0;
+		bottom: 0;
+		height: 3px;
+		width: 30px;
+		border-radius: 5px;
+		background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	}
+
+	/*Configuracion y contenido de las cajas de texto*/
+	.envase form .detallesCajas{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 20px 0 12px 0;
+	}
+
+	/*Configuracion y contenido entre los espacion de las cajas de texto*/
+	form .detallesCajas .cajas{
+		margin-bottom: 15px;
+		width: calc(100% / 2 - 20px);
+	}
+
+	/*Detalles de las cajas de texto y textos*/
+	form .cajas span.detalle{
+		display: block;
+		font-weight: 500;
+		margin-bottom: 5px;
+	}
+
+	/*Configuracion y contenido  de las cajas de texto*/
+	.detallesCajas .cajas input{
+		height: 45px;
+		width: 100%;
+		outline: none;
+		font-size: 16px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		border-bottom-width: 2px;
+		transition: all 0.3s ease;
+	}
+
+	form input[type="radio"]{
+		display: none;
+	}
+
+	/*Configuracion y contenido del fondo del formulario*/
+	.envase{
+		margin-top: 2%;
+		max-width: 40%;
+	}
+
+	/*Configuracion del boton guardar*/
+	.botonMiCuenta input{
+		height: 45px;
+		width: 25%;
+		outline: none;
+		font-size: 12px;
+		border-radius: 5px;
+		padding-left: 15px;
+		border-bottom-width: 2px;
+		transition: all 0.3s ease;
+		background: black;
+		color: white;
+		margin-top: 1%;
+		margin-left: 38%;
+	}
+
+	/*Configuracion al pasar el mouse sobre el boton*/
+	.botonMiCuenta input:hover{
+		background: #858543;
+	}
+
+	/*Configuracion de la barra del formulario*/
+	.barra{
+		height: 16px;
+		width: 150%;
+	}
+
+	/*Configuracion tamaños de los subtitulos*/
+	.subtitulosMiCuenta{
+		font-size: 25px;
+	}
+
+	h1{
+		width: 25%;
+		margin-top: 6%;
+		color: white;
+		text-align: center;
+		font-size: 48px;
+		background: black;
+		border-radius: 18px;
+	}
+
+	h3{
+		text-align: center;
+		color: white;
+		font-size: 21px;
+	}
+
+	.CS{
+	margin-top: 222%;
+	background: black;
+}

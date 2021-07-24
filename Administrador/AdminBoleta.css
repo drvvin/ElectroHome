@@ -1,0 +1,190 @@
+/*------------------------------------------------------------------------------------ContenidoDentroClienteMiCuenta-------------------------------------------------------------*/
+/*Contenido para realizar modificaciones en la pantalla central*/
+.contenidoMiCuenta{
+	margin-top: 5%;
+	padding-top: 5%;
+	margin-bottom: 100%;
+	padding-bottom: 100%;
+	background: #E6E38A;
+	background-size: 100% 100%; 
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+} 
+/*Titutlo Boleta*/
+.TituloBoleta{
+	text-align: center;
+	color: black;
+	margin-left: 0%;
+	text-align: left;
+	font-size: 38px;
+} 
+/*Contenido del formulario*/
+.envase{
+	max-width: 700px;
+	width: 100%;
+	background-color: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+/*Modificacion del formulario*/
+.envase ::before{
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	border-radius: 5px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+/*Configuracion y contenido de las cajas de texto*/
+.envase form .detallesCajas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+/*Configuracion y contenido entre los espacion de las cajas de texto*/
+form .detallesCajas .cajas{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+
+}
+/*Detalles de las cajas de texto y textos*/
+form .cajas span.detalle{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+/*Configuracion y contenido  de las cajas de texto*/
+.detallesCajas .cajas input{
+	height: 45px;
+	width: 30%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	margin-right: 40%;
+}
+form input[type="radio"]{
+	display: none;
+}
+/*Configuracion y contenido del fondo del formulario*/
+.envase{
+	max-width: 40%;
+}
+/*Configuracion del boton guardar*/
+.botonAgregarServicio input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	background: black;
+	color: white;
+}
+/*Configuracion efecto al pasar sobre el boton*/
+.botonAgregarServicio:hover input{
+	background: #858543;
+	border: black solid;
+	color:black;
+}
+/*Configuracion al pasar el mouse sobre el boton*/
+.botonMiCuenta input:hover{
+	background: #a720c5;
+}
+/*Configuracion de la barra del formulario*/
+.barra{
+	height: 16px;
+	width: 150%;
+}
+/*Configuracion de la tabla*/
+.tabla1{
+	margin-top: 2%;
+}
+/*Configuracion cajas de texto*/
+.val{
+	width: 200px;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+/*Configuracion cajas de texto*/
+.desc{
+	width: 400px;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+/*Configuracion cajas de texto*/
+.tol{
+	width: 200px;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	margin-bottom: 4%;
+
+}
+.cajita{
+	width: 90%;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	margin-bottom: 4%;
+	
+
+}
+
+.tolR{
+	width: 200px;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	margin-bottom: 4%;	
+	margin-left: 5%;
+}
+/*Configuracion cajas de texto*/
+.fir{
+	width: 400px;
+	height: 45px;
+	outline: none;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	border:none;
+	border-bottom:2px solid black;
+}
+.tabla_1{
+	width: 2%;
+	height: 30%;
+}
+.tabla_2{
+	width: 10%;
+	height: 40%;
+}
+h3{
+	margin-top: 4%;
+}
+.CS{
+    margin-top: 222%;
+    background: black;
+}
